@@ -1,4 +1,32 @@
+a{
+    text-decoration: none;
+    color: #7c7cba;
+}
+
+a:hover{
+    color: #06639d;
+}
+
 h1{
-    color: aqua;
+    color:red;
     text-align: center;
+    font-size: 1.8em;
+    font-family: Arial, serif;
+}
+
+html{
+    background: #dbc29f;
+}
+
+li{
+    color: #7c7cba;
+    font-family: Calibri, sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.site_officiel{
+    text-align: center;
+    font-size: 1.35em;
+    font-family: Arial, serif;
 }
