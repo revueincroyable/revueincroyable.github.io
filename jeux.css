@@ -30,3 +30,8 @@ li{
     font-size: 1.35em;
     font-family: Arial, serif;
 }
+
+#retour_accueil{
+    background-color: #d6d0a3;
+    position: fixed;
+}
