@@ -15,7 +15,7 @@ h1{
 }
 
 html{
-    background: #dbc29f;
+    background: #f5ebdd;
 }
 
 li{
@@ -31,7 +31,21 @@ li{
     font-family: Arial, serif;
 }
 
+#conteneur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #retour_accueil{
-    background-color: #d6d0a3;
+    background-color: #d6e5c4;
+    padding: 1%;
+    border-radius: 35%;
     position: fixed;
+}
+
+#retour_accueil:hover{
+    background-color: #77bf5d;
 }
