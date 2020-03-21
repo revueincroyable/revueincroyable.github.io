@@ -29,13 +29,17 @@ li{
     text-align: justify;
 }
 
+.img400px{
+    height: 400px;
+}
+
 .site_officiel{
     text-align: center;
     font-size: 1.35em;
     font-family: Arial, serif;
 }
 
-#conteneur{
+#presentation_generale{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -69,4 +73,5 @@ li{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin: 1%;
 }
