@@ -1,22 +1,48 @@
 a{
     text-decoration: none;
-    color: #7c7cba;
+    color: #0073a2;
 }
 
 a:hover{
-    color: #06639d;
+    color: #ffac00;
 }
 
 h1{
-    color:yellow;
-    text-align: right;
+    color: #ffac00;
+    text-align: center;
+}
+
+html{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img400px{
     height: 400px;
 }
 
+#bandeau{
+    background-color: rgba(99, 105, 106, 0.10);
+    height: 100px;
+}
+
 #retour_accueil{
-    background-color: #d6d0a3;
+    background-color: rgba(99, 105, 106, 0.41);
+    border: 3px dotted;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#titre{
+    padding-left: 10px;
+    margin: 0;
+}
+
+#titre_bouton{
+    display: flex;
     position: fixed;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1%;
 }
