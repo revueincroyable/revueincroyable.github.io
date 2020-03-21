@@ -4,18 +4,22 @@ a{
 }
 
 a:hover{
-    color: #06639d;
+    color: #0b3b58;
 }
 
 h1{
-    color:red;
+    color: #b9881c;
     text-align: center;
     font-size: 1.8em;
     font-family: Arial, serif;
 }
 
 html{
-    background: #f5ebdd;
+    background: rgba(245, 235, 221, 0.67);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 li{
@@ -40,12 +44,29 @@ li{
 }
 
 #retour_accueil{
+    display: block;
     background-color: #d6e5c4;
+    opacity: 70%;
     padding: 1%;
+    margin: 1%;
     border-radius: 35%;
     position: fixed;
+    align-items: flex-start;
 }
 
 #retour_accueil:hover{
-    background-color: #77bf5d;
+    background-color: #7ed060;
+    opacity: 100%;
+}
+
+#titre{
+    align-items: flex-end;
+    border: 3px double #b5c400;
+    padding: 3%;
+}
+
+#titre_bouton{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
