@@ -15,13 +15,14 @@ a:hover{
 
 h1{
     color: #ffac00;
+    font-size: 2em;
 }
 
 html{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px;
+    padding: 0.1%;
 }
 
 .img400px{
@@ -47,6 +48,7 @@ html{
     flex-wrap: wrap;
     background-color: rgba(99, 105, 106, 0.5);
     font-size: 1.1em;
+    align-items: center;
 }
 
 #titre_bouton:hover{
