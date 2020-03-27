@@ -1,3 +1,9 @@
+/*
+Bleu #0073a2
+Jaune #ffac00
+Gris #63696a
+*/
+
 a{
     text-decoration: none;
     color: #0073a2;
@@ -9,13 +15,13 @@ a:hover{
 
 h1{
     color: #ffac00;
-    text-align: center;
 }
 
 html{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px;
 }
 
 .img400px{
@@ -29,20 +35,20 @@ html{
 }
 
 #titre{
-    padding-left: 10px;
+    padding-left: 5%;
     margin: 0;
 }
 
 #titre_bouton{
     display: flex;
     position: sticky;
-    top: 20px;
+    top: 1%;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 1%;
     background-color: rgba(99, 105, 106, 0.5);
+    font-size: 1.1em;
 }
 
 #titre_bouton:hover{
-    background-color: #63696a;
+    background-color: rgba(99, 105, 106, 0.9);
 }
