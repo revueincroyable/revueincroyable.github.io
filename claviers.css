@@ -13,7 +13,7 @@ h1{
 }
 
 html{
-    max-width: 1920px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,13 +22,7 @@ html{
     height: 400px;
 }
 
-#bandeau{
-    background-color: rgba(99, 105, 106, 0.10);
-    height: 100px;
-}
-
 #retour_accueil{
-    background-color: rgba(99, 105, 106, 0.41);
     border: 3px dotted;
     border-radius: 100%;
     padding: 10px;
@@ -41,8 +35,14 @@ html{
 
 #titre_bouton{
     display: flex;
-    position: fixed;
+    position: sticky;
+    top: 20px;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 1%;
+    background-color: rgba(99, 105, 106, 0.5);
+}
+
+#titre_bouton:hover{
+    background-color: #63696a;
 }
