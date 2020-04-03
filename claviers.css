@@ -37,6 +37,13 @@ li, p{
     height: 400px;
 }
 
+#avertissement{
+    border: 5px dotted #d30808;
+    font-size: 1.2em;
+    color: #d30808;
+    text-align: center;
+}
+
 #retour_accueil{
     border: 3px dotted;
     border-radius: 100%;
