@@ -31,6 +31,8 @@ html{
 
 li, p{
     color: #0073a2;
+    font-size: 1.1em;
+    text-align: justify;
 }
 
 .img400px{
@@ -39,15 +41,29 @@ li, p{
 
 #avertissement{
     border: 5px dotted #d30808;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #d30808;
     text-align: center;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #retour_accueil{
     border: 3px dotted;
     border-radius: 100%;
     padding: 10px;
+}
+
+#texte_intro{
+    padding-right: 1%;
+    max-width: 400px;
 }
 
 #titre{
