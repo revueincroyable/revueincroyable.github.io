@@ -15,11 +15,11 @@ a:hover{
 
 h1{
     color: #ffac00;
-    font-size: 2em;
+    font-size: 2.2em;
 }
 
 html{
-    max-width: 1200px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
     padding: 0.5%;
@@ -35,8 +35,30 @@ li, p{
     text-align: justify;
 }
 
-.img400px{
-    height: 400px;
+.img500px{
+    width: 500px;
+}
+
+.retour{
+    border: 3px dotted;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.texte{
+    padding-left: 1%;
+    padding-right: 1%;
+    max-width: 640px;
+}
+
+.txt_img{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #avertissement{
@@ -46,32 +68,13 @@ li, p{
     text-align: center;
 }
 
-#intro{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#retour_accueil{
-    border: 3px dotted;
-    border-radius: 100%;
-    padding: 10px;
-}
-
-#texte_intro{
-    padding-right: 1%;
-    max-width: 400px;
-}
-
 #titre{
-    padding-left: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
     margin: 0;
 }
 
-#titre_bouton{
+#titre_boutons{
     display: flex;
     position: sticky;
     top: 1%;
@@ -80,8 +83,9 @@ li, p{
     background-color: rgba(99, 105, 106, 0.5);
     font-size: 1.1em;
     align-items: center;
+    justify-content: space-between;
 }
 
-#titre_bouton:hover{
-    background-color: rgba(99, 105, 106, 0.9);
+#titre_boutons:hover{
+    background-color: rgba(99, 105, 106, 0.7);
 }
