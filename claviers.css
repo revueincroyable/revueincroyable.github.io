@@ -104,7 +104,6 @@ li, p{
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgba(99, 105, 106, 0.5);
-    font-size: 1.1em;
     align-items: center;
     justify-content: space-between;
 }
