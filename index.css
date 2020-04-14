@@ -1,16 +1,17 @@
 html{
-    background-color:bisque;
+    background-color:#d6e0ff;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
 body{
-    background-color:darkgreen;
-    margin: 0px;
+    margin:0;
+    background-color:white;
 }
 
-.navbar{
+#menu
+{
     border: 0px;
     margin: 0px;
     padding: 0px;
@@ -24,15 +25,62 @@ body{
     height: 50px;
 }
 
-.navbar a{
+#liste_deroulante
+{
+    width: 150px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#menu ul
+{
+    margin: 0px;
+    padding:0px;
     text-decoration:none;
     color: #e3e5e8;
     margin-left: 2%;
     margin-right: 2%;
 }
 
-#menu_accueil{
-    margin-left: 0px;
-    margin-right: 30%;
-    text-align: left;
+#menu li
+{
+    list-style:none;
+    float:left;
+    position:relative;
 }
+
+#menu ul li a
+{
+    color:#FFF;
+    text-decoration:none;
+    width:250px;
+    height:30px;
+    display:block;
+    text-align:center;
+    border:1px #022D57;
+    border-style: none solid;
+}
+
+#menu ul ul
+{
+    position:absolute;
+    top:30px;
+    display: none;
+}
+
+#menu ul li:hover ul
+{
+    display: block;
+    background-color: #404dff;
+}
+
+#favicon
+{
+    width:50px;
+}
+.separation
+{
+    height: 50px;
+    background-color: cornflowerblue;
+}
+
