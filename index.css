@@ -20,7 +20,7 @@ body{
     flex-direction: row;
     text-align: center;
     flex-wrap: wrap;
-    background-color: #072c8a;
+    background-color: #e3e5e8;
     align-items: center;
     height: 50px;
 }
@@ -51,14 +51,15 @@ body{
 
 #menu ul li a
 {
-    color:#FFF;
+    color#072c8a;
     text-decoration:none;
     width:250px;
     height:30px;
     display:block;
     text-align:center;
-    border:1px #022D57;
-    border-style: none solid;
+    border: 1px;
+    border-left: 1px solid #00365c;
+    
 }
 
 #menu ul ul
@@ -70,8 +71,9 @@ body{
 
 #menu ul li:hover ul
 {
+    text-decoration:none;
     display: block;
-    background-color: #404dff;
+    background-color: #c3d6e3;
 }
 
 #favicon
@@ -80,7 +82,33 @@ body{
 }
 .separation
 {
-    height: 50px;
-    background-color: cornflowerblue;
+    height: 80px;
+    background-color: #cfebff;
 }
 
+.ligne{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center; 
+    height: 400px;
+    background-color: blue;
+}
+
+.element1{
+    width:50%;
+    text-align:center;
+    height: 400px;
+}
+
+.element2{
+    width:50%;
+    text-align:center;
+    font-size: 2em;
+}
+
+.img400px{
+    height: 400px;
+    width: 600px;
+}
