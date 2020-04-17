@@ -36,6 +36,7 @@ body{
     margin: 0px;
     padding:0px;
     text-decoration:none;   
+    z-index: 1000;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -45,6 +46,12 @@ body{
     list-style:none;
     float:left;
     position:relative;
+    display:inline-block;
+}
+
+#menu ul li
+{
+    display:inherit;
 }
 
 #menu ul li a
@@ -66,10 +73,12 @@ body{
 
 #menu ul li:hover ul
 {
+    left:auto;
     text-decoration:none;
     display: block;
     background-color: #c3d6e3;
 }
+
 
 #menu ul ul li
 {
