@@ -7,7 +7,6 @@ html{
 
 body{
     margin:0;
-    background-color:white;
 }
 
 #menu
@@ -20,7 +19,7 @@ body{
     flex-direction: row;
     text-align: center;
     flex-wrap: wrap;
-    background-color: #e3e5e8;
+    background-color: #00365c;   /*kouleur texte bando*/
     align-items: center;
     height: 50px;
 }
@@ -36,8 +35,7 @@ body{
 {
     margin: 0px;
     padding:0px;
-    text-decoration:none;
-    color: #e3e5e8;
+    text-decoration:none;   
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -51,15 +49,12 @@ body{
 
 #menu ul li a
 {
-    color#072c8a;
+    color: #e3e5e8; /*kouleur texte bando*/
     text-decoration:none;
     width:250px;
     height:30px;
     display:block;
     text-align:center;
-    border: 1px;
-    border-left: 1px solid #00365c;
-    
 }
 
 #menu ul ul
@@ -76,6 +71,15 @@ body{
     background-color: #c3d6e3;
 }
 
+#menu ul ul li
+{
+    background-color:#004f86;
+}
+
+#menu ul ul li a
+{
+    font-size:20px;
+}
 #favicon
 {
     width:50px;
@@ -83,32 +87,32 @@ body{
 .separation
 {
     height: 80px;
-    background-color: #cfebff;
+    background-color: #c7d5ff;
 }
 
 .ligne{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center; 
-    height: 400px;
-    background-color: blue;
+    background-color:#afbfef;
 }
 
 .element1{
     width:50%;
     text-align:center;
-    height: 400px;
 }
 
 .element2{
-    width:50%;
-    text-align:center;
-    font-size: 2em;
+    width:50%; 
+    display:flex;
+    justify-content: space-between;
 }
 
-.img400px{
-    height: 400px;
-    width: 600px;
+.imagemenu{
+    margin: auto;
+    width:80%; 
 }
+
+    
