@@ -1,21 +1,21 @@
 a{
     text-decoration: none;
-    color: #2c9a0b;
+    color: #70cdde;
 }
 
 a:hover{
-    color: #0b3b58;
+    color: #13547c;
 }
 
 h1{
-    color: #b9881c;
+    color: #00365c;
     text-align: center;
     font-size: 1.8em;
     font-family: Arial, serif;
 }
 
 html{
-    background: rgba(245, 235, 221, 0.67);
+    background: #d6e0ff;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 1%;
@@ -23,7 +23,7 @@ html{
 }
 
 li{
-    color: #3aa01b;
+    color: #28a6be;
     font-family: Calibri, sans-serif;
     font-size: 1.3em;
     text-align: justify;
@@ -48,7 +48,7 @@ li{
 }
 
 #retour_accueil{
-    background-color: #bee88a;
+    background-color: #bfe4eb;
     opacity: 70%;
     padding: 1%;
     margin: 1%;
@@ -58,7 +58,7 @@ li{
 }
 
 #retour_accueil:hover{
-    background-color: #7ed060;
+    background-color: #99cfd9;
     opacity: 100%;
 }
 
