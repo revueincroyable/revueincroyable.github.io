@@ -29,6 +29,11 @@ li{
     text-align: justify;
 }
 
+p{
+    font-size: 1.1em;
+    text-align: justify;
+}
+
 .img400px{
     height: 400px;
 }
