@@ -7,7 +7,7 @@
 Nous sommes tous les deux des “**G4M3R**”, c’est-à-dire que nous jouons beaucoup aux jeux vidéo. Nous pensons avoir une expérience et une connaissance importantes dans ce sujet. Nous avons décidé d’aborder le sujet des jeux vidéo afin de partager notre passion (en réalité, Alex voulait absolument parler de ses claviers, il a donc eu droit à sa page, comme nous le verrons ensuite).
 
 ### Pourquoi ce nom ?
-Notre site a pour vocation de présenter plusieurs jeux vidéo, logiciels et périphériques et d’en faire une critique. Il nous fallait un nom accrocheur et simple à retenir. Après une longue réunion auprès de nos ~~actionnaires~~ membres, nous avons voté et choisi Revue Incroyable (2 voix pour, 0 contre, 0 abstentions).
+Notre site a pour vocation de présenter plusieurs jeux vidéo, logiciels et périphériques et d’en faire une critique. Il nous fallait un nom accrocheur et simple à retenir. Après une longue réunion auprès de nos ~~actionnaires~~ membres, nous avons voté et choisi Revue Incroyable (2 voix pour, 0 contre, 0 abstention).
 
 ### Pourquoi ces jeux ?
 Nous avons décidé d’évoquer des jeux qui nous ont marqué que ce soit par leur histoire ou par leur style. Ainsi, nous n’avons sélectionné que des jeux pour lesquels l’un de nous deux a plusieurs dizaines d’heures de jeu.
